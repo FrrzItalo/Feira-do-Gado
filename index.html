@@ -1,0 +1,1522 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A nova era da negociação pecuária. Compre e venda gado bovino com segurança e tecnologia."
+    />
+    <meta name="theme-color" content="#1a472a" />
+    <title>Feira do Gado | Marketplace de Pecuária</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <a href="#" class="logo">
+          <svg
+            class="logo-icon"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 12C6 8 4 6 2 6C4 8 5 12 6 16C7 20 8 22 10 24"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M40 12C42 8 44 6 46 6C44 8 43 12 42 16C41 20 40 22 38 24"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <ellipse cx="24" cy="28" rx="14" ry="12" fill="currentColor" />
+            <ellipse cx="24" cy="36" rx="6" ry="4" fill="#d4a574" />
+            <circle cx="18" cy="26" r="2" fill="white" />
+            <circle cx="30" cy="26" r="2" fill="white" />
+            <ellipse cx="21" cy="38" rx="1" ry="1.5" fill="#1a472a" />
+            <ellipse cx="27" cy="38" rx="1" ry="1.5" fill="#1a472a" />
+            <path
+              d="M10 20C8 18 6 18 4 20"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M38 20C40 18 42 18 44 20"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span class="logo-text">Feira do Gado</span>
+        </a>
+
+        <nav class="nav-desktop">
+          <a href="#animais" class="nav-link">Animais</a>
+          <a href="#mapa" class="nav-link">Mapa</a>
+          <a href="#como-funciona" class="nav-link">Como Funciona</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-ghost">Entrar</button>
+          <button class="btn btn-primary">Cadastrar</button>
+        </div>
+
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Abrir menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+          <a href="#animais" class="mobile-nav-link">Animais</a>
+          <a href="#mapa" class="mobile-nav-link">Mapa</a>
+          <a href="#como-funciona" class="mobile-nav-link">Como Funciona</a>
+          <a href="#contato" class="mobile-nav-link">Contato</a>
+          <div class="mobile-nav-divider"></div>
+          <button class="btn btn-ghost btn-full">Entrar</button>
+          <button class="btn btn-primary btn-full">Cadastrar</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-background">
+        <img
+          src="./images/hero-cattle.jpg"
+          alt="Gado no pasto"
+          class="hero-image"
+          id="heroImage"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <span class="hero-badge">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+            ></polygon>
+          </svg>
+          Plataforma líder em negociação pecuária
+        </span>
+
+        <h1 class="hero-title">
+          A nova era da<br /><span class="hero-title-highlight"
+            >negociação pecuária</span
+          >
+        </h1>
+
+        <p class="hero-description">
+          Conectamos compradores e vendedores de gado bovino em todo o Brasil
+          com tecnologia, segurança e transparência.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#animais" class="btn btn-primary btn-lg">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+            Explorar Animais
+          </a>
+          <a href="#mapa" class="btn btn-outline btn-lg">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Visualizar Mapa
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-value">15.000+</span>
+            <span class="hero-stat-label">Animais cadastrados</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">2.500+</span>
+            <span class="hero-stat-label">Vendedores ativos</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">R$ 250M+</span>
+            <span class="hero-stat-label">Em negociações</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#mapa" class="scroll-indicator" aria-label="Rolar para baixo">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="m6 9 6 6 6-6"></path>
+        </svg>
+      </a>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="mapa">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Cobertura Nacional</span>
+          <h2 class="section-title">Encontre animais em todo o Brasil</h2>
+          <p class="section-description">
+            Clique em um estado para ver os animais disponíveis na região
+          </p>
+        </div>
+
+        <div class="map-content">
+          <div class="map-wrapper">
+            <svg
+              class="brazil-map"
+              viewBox="0 0 700 650"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Norte -->
+              <path
+                class="state"
+                data-state="AM"
+                d="M80,120 L180,100 L220,120 L240,180 L200,240 L140,260 L80,220 L60,160 Z"
+              >
+                <title>Amazonas</title>
+              </path>
+              <path
+                class="state"
+                data-state="PA"
+                d="M220,120 L340,100 L380,140 L400,200 L360,260 L280,280 L240,240 L240,180 Z"
+              >
+                <title>Pará</title>
+              </path>
+              <path
+                class="state"
+                data-state="RR"
+                d="M140,40 L200,30 L220,80 L180,100 L140,80 Z"
+              >
+                <title>Roraima</title>
+              </path>
+              <path
+                class="state"
+                data-state="AP"
+                d="M320,40 L360,50 L370,100 L340,100 L320,70 Z"
+              >
+                <title>Amapá</title>
+              </path>
+              <path
+                class="state"
+                data-state="AC"
+                d="M40,200 L80,180 L100,220 L80,260 L40,250 Z"
+              >
+                <title>Acre</title>
+              </path>
+              <path
+                class="state"
+                data-state="RO"
+                d="M100,220 L140,200 L180,240 L160,300 L120,300 L100,260 Z"
+              >
+                <title>Rondônia</title>
+              </path>
+              <path
+                class="state"
+                data-state="TO"
+                d="M320,240 L360,220 L380,280 L360,360 L320,380 L300,320 Z"
+              >
+                <title>Tocantins</title>
+              </path>
+
+              <!-- Nordeste -->
+              <path
+                class="state"
+                data-state="MA"
+                d="M380,180 L440,160 L480,200 L460,260 L400,280 L380,240 Z"
+              >
+                <title>Maranhão</title>
+              </path>
+              <path
+                class="state"
+                data-state="PI"
+                d="M400,280 L460,260 L480,320 L460,380 L420,380 L400,340 Z"
+              >
+                <title>Piauí</title>
+              </path>
+              <path
+                class="state"
+                data-state="CE"
+                d="M480,200 L540,180 L560,220 L540,280 L500,280 L480,240 Z"
+              >
+                <title>Ceará</title>
+              </path>
+              <path
+                class="state"
+                data-state="RN"
+                d="M560,220 L600,210 L610,250 L580,270 L560,260 Z"
+              >
+                <title>Rio Grande do Norte</title>
+              </path>
+              <path
+                class="state"
+                data-state="PB"
+                d="M560,270 L610,260 L620,290 L580,310 L560,300 Z"
+              >
+                <title>Paraíba</title>
+              </path>
+              <path
+                class="state"
+                data-state="PE"
+                d="M520,300 L580,290 L600,320 L560,350 L520,340 Z"
+              >
+                <title>Pernambuco</title>
+              </path>
+              <path
+                class="state"
+                data-state="AL"
+                d="M560,350 L600,340 L610,370 L580,380 L560,370 Z"
+              >
+                <title>Alagoas</title>
+              </path>
+              <path
+                class="state"
+                data-state="SE"
+                d="M560,380 L590,375 L600,400 L570,410 L560,400 Z"
+              >
+                <title>Sergipe</title>
+              </path>
+              <path
+                class="state"
+                data-state="BA"
+                d="M420,380 L520,340 L560,400 L540,480 L460,500 L400,460 L400,400 Z"
+              >
+                <title>Bahia</title>
+              </path>
+
+              <!-- Centro-Oeste -->
+              <path
+                class="state"
+                data-state="MT"
+                d="M180,280 L280,260 L320,320 L300,420 L220,440 L160,400 L160,320 Z"
+              >
+                <title>Mato Grosso</title>
+              </path>
+              <path
+                class="state"
+                data-state="GO"
+                d="M320,380 L400,360 L420,420 L400,480 L340,500 L300,460 L300,420 Z"
+              >
+                <title>Goiás</title>
+              </path>
+              <path
+                class="state"
+                data-state="DF"
+                d="M360,420 L380,415 L385,435 L365,440 Z"
+              >
+                <title>Distrito Federal</title>
+              </path>
+              <path
+                class="state"
+                data-state="MS"
+                d="M220,440 L300,420 L320,500 L280,560 L220,560 L200,500 Z"
+              >
+                <title>Mato Grosso do Sul</title>
+              </path>
+
+              <!-- Sudeste -->
+              <path
+                class="state selected"
+                data-state="SP"
+                d="M320,500 L400,480 L440,520 L420,580 L340,600 L300,560 Z"
+              >
+                <title>São Paulo</title>
+              </path>
+              <path
+                class="state"
+                data-state="MG"
+                d="M400,420 L500,400 L540,480 L500,540 L420,560 L400,500 Z"
+              >
+                <title>Minas Gerais</title>
+              </path>
+              <path
+                class="state"
+                data-state="RJ"
+                d="M500,540 L560,520 L580,550 L540,580 L500,570 Z"
+              >
+                <title>Rio de Janeiro</title>
+              </path>
+              <path
+                class="state"
+                data-state="ES"
+                d="M540,480 L580,470 L590,510 L560,530 L540,510 Z"
+              >
+                <title>Espírito Santo</title>
+              </path>
+
+              <!-- Sul -->
+              <path
+                class="state"
+                data-state="PR"
+                d="M300,560 L400,540 L420,590 L380,630 L300,630 L280,600 Z"
+              >
+                <title>Paraná</title>
+              </path>
+              <path
+                class="state"
+                data-state="SC"
+                d="M320,630 L400,620 L410,660 L360,680 L320,670 Z"
+              >
+                <title>Santa Catarina</title>
+              </path>
+              <path
+                class="state"
+                data-state="RS"
+                d="M280,670 L360,660 L380,720 L320,760 L260,740 L240,700 Z"
+              >
+                <title>Rio Grande do Sul</title>
+              </path>
+
+              <!-- State Labels -->
+              <text x="150" y="180" class="state-label">AM</text>
+              <text x="310" y="190" class="state-label">PA</text>
+              <text x="170" y="70" class="state-label-sm">RR</text>
+              <text x="340" y="75" class="state-label-sm">AP</text>
+              <text x="60" y="230" class="state-label-sm">AC</text>
+              <text x="130" y="260" class="state-label-sm">RO</text>
+              <text x="335" y="310" class="state-label-sm">TO</text>
+              <text x="420" y="230" class="state-label-sm">MA</text>
+              <text x="440" y="330" class="state-label-sm">PI</text>
+              <text x="510" y="250" class="state-label-sm">CE</text>
+              <text x="575" y="245" class="state-label-sm">RN</text>
+              <text x="575" y="290" class="state-label-sm">PB</text>
+              <text x="555" y="325" class="state-label-sm">PE</text>
+              <text x="575" y="365" class="state-label-sm">AL</text>
+              <text x="575" y="395" class="state-label-sm">SE</text>
+              <text x="470" y="440" class="state-label">BA</text>
+              <text x="220" y="360" class="state-label">MT</text>
+              <text x="350" y="450" class="state-label-sm">GO</text>
+              <text x="250" y="500" class="state-label-sm">MS</text>
+              <text x="360" y="545" class="state-label">SP</text>
+              <text x="460" y="490" class="state-label">MG</text>
+              <text x="540" y="550" class="state-label-sm">RJ</text>
+              <text x="555" y="500" class="state-label-sm">ES</text>
+              <text x="345" y="600" class="state-label-sm">PR</text>
+              <text x="355" y="660" class="state-label-sm">SC</text>
+              <text x="310" y="720" class="state-label-sm">RS</text>
+            </svg>
+          </div>
+
+          <div class="map-sidebar">
+            <div class="map-info-card">
+              <div class="map-info-header">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                  ></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <h3 class="map-info-title" id="selectedStateName">
+                    São Paulo
+                  </h3>
+                  <p class="map-info-subtitle">Estado selecionado</p>
+                </div>
+              </div>
+
+              <div class="map-stats-grid">
+                <div class="map-stat-item">
+                  <span class="map-stat-value" id="animalsCount">3.240</span>
+                  <span class="map-stat-label">Animais</span>
+                </div>
+                <div class="map-stat-item">
+                  <span class="map-stat-value" id="sellersCount">456</span>
+                  <span class="map-stat-label">Vendedores</span>
+                </div>
+                <div class="map-stat-item">
+                  <span class="map-stat-value" id="avgPrice">R$ 6.800</span>
+                  <span class="map-stat-label">Preço Médio</span>
+                </div>
+                <div class="map-stat-item">
+                  <span class="map-stat-value" id="salesCount">892</span>
+                  <span class="map-stat-label">Vendas/mês</span>
+                </div>
+              </div>
+
+              <div class="map-breeds">
+                <h4 class="map-breeds-title">Raças mais populares</h4>
+                <div class="breed-item">
+                  <span class="breed-name">Nelore</span>
+                  <div class="breed-bar">
+                    <div class="breed-bar-fill" style="width: 45%"></div>
+                  </div>
+                  <span class="breed-percent">45%</span>
+                </div>
+                <div class="breed-item">
+                  <span class="breed-name">Angus</span>
+                  <div class="breed-bar">
+                    <div class="breed-bar-fill" style="width: 25%"></div>
+                  </div>
+                  <span class="breed-percent">25%</span>
+                </div>
+                <div class="breed-item">
+                  <span class="breed-name">Brahman</span>
+                  <div class="breed-bar">
+                    <div class="breed-bar-fill" style="width: 18%"></div>
+                  </div>
+                  <span class="breed-percent">18%</span>
+                </div>
+                <div class="breed-item">
+                  <span class="breed-name">Outras</span>
+                  <div class="breed-bar">
+                    <div class="breed-bar-fill" style="width: 12%"></div>
+                  </div>
+                  <span class="breed-percent">12%</span>
+                </div>
+              </div>
+
+              <button class="btn btn-primary btn-full" id="viewAnimalsBtn">
+                Ver animais em São Paulo
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animals Section -->
+    <section class="animals-section" id="animais">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Vitrine de Animais</span>
+          <h2 class="section-title">Animais em destaque</h2>
+          <p class="section-description">
+            Encontre o gado ideal para sua fazenda com qualidade garantida
+          </p>
+        </div>
+
+        <div class="animals-grid">
+          <!-- Card 1 - Nelore -->
+          <article class="animal-card">
+            <div class="animal-image-wrapper">
+              <img
+                src="./images/nelore.jpg"
+                alt="Boi Nelore"
+                class="animal-image"
+              />
+              <div class="animal-badges">
+                <span class="badge badge-featured">Destaque</span>
+                <span class="badge badge-verified">Verificado</span>
+              </div>
+            </div>
+            <div class="animal-content">
+              <div class="animal-header">
+                <h3 class="animal-breed">Nelore</h3>
+                <span class="animal-price">R$ 8.500</span>
+              </div>
+              <div class="animal-details">
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2v20M2 12h20"></path>
+                  </svg>
+                  <span>520 kg</span>
+                </div>
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>São Paulo, SP</span>
+                </div>
+              </div>
+              <div class="animal-offers">
+                <span class="offers-title">Ofertas recentes:</span>
+                <div class="offers-list">
+                  <span class="offer-item">Oferta 1: R$ 8.000</span>
+                  <span class="offer-divider">|</span>
+                  <span class="offer-item">Oferta 2: R$ 8.200</span>
+                </div>
+              </div>
+              <div class="animal-actions">
+                <button
+                  class="btn btn-secondary"
+                  onclick="openOfferModal('Nelore', 8500)"
+                >
+                  Fazer Oferta
+                </button>
+                <button
+                  class="btn btn-primary"
+                  onclick="openSuccessModal('Nelore', 8500)"
+                >
+                  Comprar Agora
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 - Angus -->
+          <article class="animal-card">
+            <div class="animal-image-wrapper">
+              <img
+                src="./images/angus.jpg"
+                alt="Boi Angus"
+                class="animal-image"
+              />
+              <div class="animal-badges">
+                <span class="badge badge-verified">Verificado</span>
+              </div>
+            </div>
+            <div class="animal-content">
+              <div class="animal-header">
+                <h3 class="animal-breed">Angus</h3>
+                <span class="animal-price">R$ 12.000</span>
+              </div>
+              <div class="animal-details">
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2v20M2 12h20"></path>
+                  </svg>
+                  <span>580 kg</span>
+                </div>
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Goiás, GO</span>
+                </div>
+              </div>
+              <div class="animal-offers">
+                <span class="offers-title">Ofertas recentes:</span>
+                <div class="offers-list">
+                  <span class="offer-item">Oferta 1: R$ 11.200</span>
+                  <span class="offer-divider">|</span>
+                  <span class="offer-item">Oferta 2: R$ 11.500</span>
+                </div>
+              </div>
+              <div class="animal-actions">
+                <button
+                  class="btn btn-secondary"
+                  onclick="openOfferModal('Angus', 12000)"
+                >
+                  Fazer Oferta
+                </button>
+                <button
+                  class="btn btn-primary"
+                  onclick="openSuccessModal('Angus', 12000)"
+                >
+                  Comprar Agora
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 - Senepol -->
+          <article class="animal-card">
+            <div class="animal-image-wrapper">
+              <img
+                src="./images/senepol.jpg"
+                alt="Boi Senepol"
+                class="animal-image"
+              />
+              <div class="animal-badges">
+                <span class="badge badge-featured">Destaque</span>
+              </div>
+            </div>
+            <div class="animal-content">
+              <div class="animal-header">
+                <h3 class="animal-breed">Senepol</h3>
+                <span class="animal-price">R$ 9.800</span>
+              </div>
+              <div class="animal-details">
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2v20M2 12h20"></path>
+                  </svg>
+                  <span>495 kg</span>
+                </div>
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Minas Gerais, MG</span>
+                </div>
+              </div>
+              <div class="animal-offers">
+                <span class="offers-title">Ofertas recentes:</span>
+                <div class="offers-list">
+                  <span class="offer-item">Oferta 1: R$ 9.200</span>
+                  <span class="offer-divider">|</span>
+                  <span class="offer-item">Oferta 2: R$ 9.500</span>
+                </div>
+              </div>
+              <div class="animal-actions">
+                <button
+                  class="btn btn-secondary"
+                  onclick="openOfferModal('Senepol', 9800)"
+                >
+                  Fazer Oferta
+                </button>
+                <button
+                  class="btn btn-primary"
+                  onclick="openSuccessModal('Senepol', 9800)"
+                >
+                  Comprar Agora
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 - Guzerá -->
+          <article class="animal-card">
+            <div class="animal-image-wrapper">
+              <img
+                src="./images/guzera.jpg"
+                alt="Boi Guzerá"
+                class="animal-image"
+              />
+              <div class="animal-badges">
+                <span class="badge badge-verified">Verificado</span>
+              </div>
+            </div>
+            <div class="animal-content">
+              <div class="animal-header">
+                <h3 class="animal-breed">Guzerá</h3>
+                <span class="animal-price">R$ 7.200</span>
+              </div>
+              <div class="animal-details">
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2v20M2 12h20"></path>
+                  </svg>
+                  <span>480 kg</span>
+                </div>
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Bahia, BA</span>
+                </div>
+              </div>
+              <div class="animal-offers">
+                <span class="offers-title">Ofertas recentes:</span>
+                <div class="offers-list">
+                  <span class="offer-item">Oferta 1: R$ 6.800</span>
+                  <span class="offer-divider">|</span>
+                  <span class="offer-item">Oferta 2: R$ 7.000</span>
+                </div>
+              </div>
+              <div class="animal-actions">
+                <button
+                  class="btn btn-secondary"
+                  onclick="openOfferModal('Guzerá', 7200)"
+                >
+                  Fazer Oferta
+                </button>
+                <button
+                  class="btn btn-primary"
+                  onclick="openSuccessModal('Guzerá', 7200)"
+                >
+                  Comprar Agora
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 - Brahman -->
+          <article class="animal-card">
+            <div class="animal-image-wrapper">
+              <img
+                src="./images/brahman.jpg"
+                alt="Boi Brahman"
+                class="animal-image"
+              />
+              <div class="animal-badges">
+                <span class="badge badge-featured">Destaque</span>
+                <span class="badge badge-verified">Verificado</span>
+              </div>
+            </div>
+            <div class="animal-content">
+              <div class="animal-header">
+                <h3 class="animal-breed">Brahman</h3>
+                <span class="animal-price">R$ 10.500</span>
+              </div>
+              <div class="animal-details">
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2v20M2 12h20"></path>
+                  </svg>
+                  <span>550 kg</span>
+                </div>
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Mato Grosso, MT</span>
+                </div>
+              </div>
+              <div class="animal-offers">
+                <span class="offers-title">Ofertas recentes:</span>
+                <div class="offers-list">
+                  <span class="offer-item">Oferta 1: R$ 10.000</span>
+                  <span class="offer-divider">|</span>
+                  <span class="offer-item">Oferta 2: R$ 10.200</span>
+                </div>
+              </div>
+              <div class="animal-actions">
+                <button
+                  class="btn btn-secondary"
+                  onclick="openOfferModal('Brahman', 10500)"
+                >
+                  Fazer Oferta
+                </button>
+                <button
+                  class="btn btn-primary"
+                  onclick="openSuccessModal('Brahman', 10500)"
+                >
+                  Comprar Agora
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 - Tabapuã -->
+          <article class="animal-card">
+            <div class="animal-image-wrapper">
+              <img
+                src="./images/tabapua.jpg"
+                alt="Boi Tabapuã"
+                class="animal-image"
+              />
+              <div class="animal-badges">
+                <span class="badge badge-verified">Verificado</span>
+              </div>
+            </div>
+            <div class="animal-content">
+              <div class="animal-header">
+                <h3 class="animal-breed">Tabapuã</h3>
+                <span class="animal-price">R$ 6.900</span>
+              </div>
+              <div class="animal-details">
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2v20M2 12h20"></path>
+                  </svg>
+                  <span>460 kg</span>
+                </div>
+                <div class="animal-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Paraná, PR</span>
+                </div>
+              </div>
+              <div class="animal-offers">
+                <span class="offers-title">Ofertas recentes:</span>
+                <div class="offers-list">
+                  <span class="offer-item">Oferta 1: R$ 6.500</span>
+                  <span class="offer-divider">|</span>
+                  <span class="offer-item">Oferta 2: R$ 6.700</span>
+                </div>
+              </div>
+              <div class="animal-actions">
+                <button
+                  class="btn btn-secondary"
+                  onclick="openOfferModal('Tabapuã', 6900)"
+                >
+                  Fazer Oferta
+                </button>
+                <button
+                  class="btn btn-primary"
+                  onclick="openSuccessModal('Tabapuã', 6900)"
+                >
+                  Comprar Agora
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-footer">
+          <button class="btn btn-outline btn-lg">
+            Ver todos os animais
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-section" id="como-funciona">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Como Funciona</span>
+          <h2 class="section-title">Negociação simples e segura</h2>
+          <p class="section-description">
+            Em poucos passos você encontra e adquire o gado ideal para sua
+            fazenda
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <div class="step-icon">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Pesquise</h3>
+            <p class="step-description">
+              Navegue pelo mapa ou use filtros para encontrar animais por raça,
+              peso e localização.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <div class="step-icon">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Escolha</h3>
+            <p class="step-description">
+              Analise as fotos, informações detalhadas e histórico de ofertas de
+              cada animal.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <div class="step-icon">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Negocie</h3>
+            <p class="step-description">
+              Faça ofertas ou compre diretamente. Toda negociação é protegida
+              pela plataforma.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <div class="step-icon">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="step-title">Finalize</h3>
+            <p class="step-description">
+              Conclua a compra com segurança. O vendedor entrará em contato para
+              a entrega.
+            </p>
+          </div>
+        </div>
+
+        <div class="trust-stats">
+          <div class="trust-stat">
+            <span class="trust-value">15.000+</span>
+            <span class="trust-label">Negociações realizadas</span>
+          </div>
+          <div class="trust-stat">
+            <span class="trust-value">R$ 250M+</span>
+            <span class="trust-label">Em transações</span>
+          </div>
+          <div class="trust-stat">
+            <span class="trust-value">98%</span>
+            <span class="trust-label">Satisfação</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+      <div class="footer-container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <svg
+                class="logo-icon"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 12C6 8 4 6 2 6C4 8 5 12 6 16C7 20 8 22 10 24"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M40 12C42 8 44 6 46 6C44 8 43 12 42 16C41 20 40 22 38 24"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <ellipse cx="24" cy="28" rx="14" ry="12" fill="currentColor" />
+                <ellipse cx="24" cy="36" rx="6" ry="4" fill="#d4a574" />
+                <circle cx="18" cy="26" r="2" fill="white" />
+                <circle cx="30" cy="26" r="2" fill="white" />
+                <ellipse cx="21" cy="38" rx="1" ry="1.5" fill="#1a472a" />
+                <ellipse cx="27" cy="38" rx="1" ry="1.5" fill="#1a472a" />
+                <path
+                  d="M10 20C8 18 6 18 4 20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M38 20C40 18 42 18 44 20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span class="logo-text">Feira do Gado</span>
+            </a>
+            <p class="footer-description">
+              A plataforma líder em negociação pecuária no Brasil. Conectamos
+              compradores e vendedores com tecnologia, segurança e
+              transparência.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 class="footer-title">Plataforma</h4>
+              <ul class="footer-list">
+                <li><a href="#animais">Animais</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#">Anunciar</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Suporte</h4>
+              <ul class="footer-list">
+                <li><a href="#">Central de Ajuda</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Segurança</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4 class="footer-title">Legal</h4>
+              <ul class="footer-list">
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Cookies</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; 2024 Feira do Gado. Todos os direitos reservados.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                ></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+                ></path>
+                <path d="m10 15 5-3-5-3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Offer Modal -->
+    <div class="modal-overlay" id="offerModal">
+      <div class="modal">
+        <button
+          class="modal-close"
+          onclick="closeOfferModal()"
+          aria-label="Fechar"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+
+        <div class="modal-header">
+          <div class="modal-icon modal-icon-offer">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="modal-title">Fazer Oferta</h2>
+          <p class="modal-subtitle" id="offerAnimalName">
+            Nelore - São Paulo, SP
+          </p>
+        </div>
+
+        <div class="modal-body">
+          <div class="price-info">
+            <span class="price-label">Preço pedido:</span>
+            <span class="price-value" id="offerAskingPrice">R$ 8.500</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="offerInput">Sua oferta (R$)</label>
+            <div class="input-wrapper">
+              <span class="input-prefix">R$</span>
+              <input
+                type="text"
+                id="offerInput"
+                class="form-input"
+                placeholder="0,00"
+                oninput="formatOfferInput(this)"
+              />
+            </div>
+            <span class="form-hint" id="offerComparison"></span>
+          </div>
+
+          <div class="recent-offers">
+            <span class="recent-offers-title">Ofertas anteriores:</span>
+            <div class="recent-offers-list">
+              <span class="recent-offer">R$ 8.000</span>
+              <span class="recent-offer">R$ 8.200</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-ghost" onclick="closeOfferModal()">
+            Cancelar
+          </button>
+          <button class="btn btn-primary" onclick="submitOffer()">
+            Enviar Oferta
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="m22 2-7 20-4-9-9-4Z"></path>
+              <path d="M22 2 11 13"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+      <div class="modal modal-success">
+        <button
+          class="modal-close"
+          onclick="closeSuccessModal()"
+          aria-label="Fechar"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+
+        <div class="modal-header">
+          <div class="modal-icon modal-icon-success">
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h2 class="modal-title">Compra realizada com sucesso!</h2>
+          <p class="modal-subtitle">O vendedor entrará em contato em breve.</p>
+        </div>
+
+        <div class="modal-body">
+          <div class="order-summary">
+            <div class="order-item">
+              <span class="order-label">Animal:</span>
+              <span class="order-value" id="successAnimalName">Nelore</span>
+            </div>
+            <div class="order-item">
+              <span class="order-label">Valor:</span>
+              <span class="order-value order-price" id="successPrice"
+                >R$ 8.500</span
+              >
+            </div>
+            <div class="order-item">
+              <span class="order-label">Pedido:</span>
+              <span class="order-value">#FDG-2024-00847</span>
+            </div>
+          </div>
+
+          <div class="next-steps">
+            <h4 class="next-steps-title">Próximos passos:</h4>
+            <ul class="next-steps-list">
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Você receberá um e-mail de confirmação
+              </li>
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                O vendedor entrará em contato em até 24h
+              </li>
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Acompanhe o status no seu painel
+              </li>
+            </ul>
+          </div>
+
+          <div class="protected-badge">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            Transação protegida pela Feira do Gado
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-ghost" onclick="closeSuccessModal()">
+            Ver mais animais
+          </button>
+          <button class="btn btn-primary" onclick="closeSuccessModal()">
+            Ir para Meus Pedidos
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
